@@ -23,7 +23,5 @@ pipeline:
     secrets:
       - docker_username
       - docker_password
-    when:
-      event: [ push, tag ]
 
 # vim:sw=2:ts=2:
