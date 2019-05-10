@@ -18,6 +18,7 @@ pipeline:
     image: docker:stable
     commands:
       - ls
+      - cat push-docker.sh
       - ./push-docker.sh
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
