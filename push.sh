@@ -11,3 +11,4 @@ set -x
 docker push $N:$V
 docker push $N:latest
 set +x
+

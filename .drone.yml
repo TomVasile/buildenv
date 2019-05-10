@@ -17,7 +17,7 @@ pipeline:
   push-image:
     image: docker:stable
     commands:
-      - ./push-docker.sh
+      - ./push.sh
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     secrets:
